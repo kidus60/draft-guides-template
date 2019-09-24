@@ -13,7 +13,7 @@ The naming convention for `permalink` is `/guide/` followed by the GitHub reposi
    * For example, the appropriate `permalink` for https://github.com/kabanero-io/guide-overview/ would be `/guides/overview/`
    * This eliminates guide URL conflicts for guides as GitHub won't allow two repositories with the same name.
 
-`layout` could also be `guide-multipane` which renders that code column to show code on the side.
+`layout` could be `guide-multipane` which renders that code column to show code on the side. `layout` can also be  `guide-markdown` incase you prefer to write the guide in markdown format **Note `guide-markdown` does not have the code column fature enabled**.
 
 To get started open an issue to get a repository in the kabanero-io github org created for your guide. Make sure `draft-guide-` is appended to the beginning of the repo name. `draft-` ensures it will not get published to the site. `guide-` ensures our build process will pull in the guide during build.
 
