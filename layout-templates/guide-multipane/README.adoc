@@ -1,0 +1,38 @@
+---
+permalink: /guides/layout-multipane-example/
+---
+
+:page-layout: guide-multipane
+//--** INSTRUCTION: The project id is the part of the git repository after the guide- and must be specified
+//--** :projectid: github repo name without the `guide-` prefix
+:projectid: template
+//--** INSTRUCTION: Provide an estimate of how long the guide will take to go through.
+:page-duration: 15 minutes
+//--** INSTRUCTION: Provide the date when the guide is published.  Format is YYYY-MM-DD.
+:page-releasedate: 2019-03-11
+//--** INSTRUCTION: Provide a description for the guide index page.
+:page-description: Learn how to create a todo list API as a REST service using JAX-RS, and Open Liberty.
+:guide-author: Kabanero
+//--** INSTUCTION: Please provide relevant tags, try to avoid inventing new ones.
+//--** Use some of "MicroProfile, Maven, Docker, Kubernetes, Gradle, Java EE, Security".
+:page-tags: ['monitoring', 'prometheus', 'grafana']
+//--** INSTRUCTION: Specify the unique name of the guide that is used in the permalink.
+:page-guide-category: monitoring
+//--** INSTRUCTION: Places the guide into the essentials section of a category
+//--** Requirement: Must define :page-guide-category:
+:page-essential: false
+//--** INSTRUCTION: Number is used to sort guide from left (lowest number) to right (highest number) in
+//--** the essentials section of a category
+//--** Requirement: Must have :page-essential: true
+:page-essential-order: 1
+//--** INSTRUCTION: Specify the slug in the website. This must be unique.
+:page-seo-title: Creating a REST service
+//--** INSTRUCTION: Update the SEO description for the guide
+:page-description: Learn how to monitor applications on OKD with Prometheus and Grafana.
+//--** INSTRUCTION: You can't have a new line between the attributes and the title.
+= An example of using the guide-multipane
+
+* For reference of AsciiDoc syntax please visit https://asciidoctor.org/docs/asciidoc-syntax-quick-reference[Asciidoc syntax quick reference]
+
+
+// ------------ END ------------
