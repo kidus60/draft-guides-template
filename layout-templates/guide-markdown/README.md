@@ -13,7 +13,7 @@ projectid: kabanero-io
 # projectid: github repo name without the `guide-` prefix
 tags: ['something']
 # tags: provide relevant tags, try to avoid inventing new ones.
-:page-permalink: /guides/{projectid}
+permalink: /guides/markdown-guide-example
 #  INSTRUCTION: :page-permalink: is the part of the git repository after the guide- and must be specified
 # :page-permalink: github repo name without the `guide-` prefix
 ---
